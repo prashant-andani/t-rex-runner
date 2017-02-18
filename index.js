@@ -2112,6 +2112,7 @@
     function Cloud(canvas, spritePos, containerWidth) {
         this.canvas = canvas;
         this.canvasCtx = this.canvas.getContext('2d');
+        console.log(this.canb);
         this.spritePos = spritePos;
         this.containerWidth = containerWidth;
         this.xPos = containerWidth;
